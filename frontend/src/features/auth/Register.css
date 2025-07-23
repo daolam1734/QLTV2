@@ -1,0 +1,95 @@
+/* Register.css */
+
+.register-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 36px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 87, 184, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  border: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.register-container h2 {
+  text-align: center;
+  color: #0057b8;
+  margin-bottom: 28px;
+  font-size: 22px;
+}
+
+.register-container form div {
+  margin-bottom: 18px;
+}
+
+.register-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container input[type="date"] {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.register-container input:focus {
+  border-color: #0057b8;
+  outline: none;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0057b8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+  background-color: #003b80;
+}
+
+.register-container p {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+  margin-top: 10px;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 520px) {
+  .register-container {
+    margin: 30px 20px;
+    padding: 24px;
+  }
+
+  .register-container h2 {
+    font-size: 20px;
+  }
+}

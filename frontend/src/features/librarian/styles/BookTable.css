@@ -1,0 +1,85 @@
+.book-table {
+  margin-top: 2rem;
+}
+
+.book-table h2 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.book-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 900px;
+}
+
+.book-table table th,
+.book-table table td {
+  border: 1px solid #e0e0e0;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.book-table table th {
+  background-color: #e3f2fd;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.book-table table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.book-table table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.cover-thumbnail {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  font-size: 13px;
+  margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #fff8e1;
+  color: #444;
+}
+
+.edit-btn:hover {
+  background-color: #ffecb3;
+}
+
+.delete-btn {
+  background-color: #ffebee;
+  color: #b71c1c;
+}
+
+.delete-btn:hover {
+  background-color: #ffcdd2;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+  padding: 20px 0;
+}

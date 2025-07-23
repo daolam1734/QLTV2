@@ -1,0 +1,19 @@
+.borrow-manager {
+  padding: 2rem;
+}
+
+.borrow-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.borrow-table th,
+.borrow-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.borrow-table th {
+  background-color: #f0f0f0;
+}

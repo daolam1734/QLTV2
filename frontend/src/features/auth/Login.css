@@ -1,0 +1,92 @@
+/* Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 87, 184, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  border: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #0057b8;
+  margin-bottom: 24px;
+}
+
+.login-container form div {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #0057b8;
+  outline: none;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0057b8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #003b80;
+}
+
+.login-container p {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .login-container {
+    margin: 30px 20px;
+    padding: 24px;
+  }
+
+  .login-container h2 {
+    font-size: 20px;
+  }
+}
